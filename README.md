@@ -14,7 +14,7 @@ It allows:
 - Viewing all users
 - Fetching a user by ID
 - Updating user details
-- (Upcoming) Deleting users
+- Deleting users
 - (Upcoming) Resource borrowing & return logic
 
 This project focuses on **CRUD fundamentals before moving to databases and authentication**.
@@ -33,11 +33,12 @@ This project focuses on **CRUD fundamentals before moving to databases and authe
 
 ## 🚀 Features Implemented (Current Progress)
 
-### User APIs
+### User APIs (Full CRUD)
 - `POST /users` → Create a user  
 - `GET /users` → List all users  
 - `GET /users/{id}` → Fetch user by ID  
 - `PUT /users/{id}` → Update user details  
+- `DELETE /users/{id}` → Delete user  
 
 Data is currently stored **in-memory** (Python list) for learning purposes.
 
